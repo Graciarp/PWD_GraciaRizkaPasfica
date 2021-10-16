@@ -1,0 +1,338 @@
+@charset "UTF-8";
+/**
+ * Beda class dan id
+ * class : dapat diberikan pada banyak elemen html dan dipanggil sekaligus
+ * id : hanya dapat bekerja pada satu elemen
+ * class disimbolkan dengan tanda (.)
+ * id disimbolkan dengan tanda (#)
+ */
+
+/* Untuk background website */
+.body {
+	width: 2000px;
+	height: 3500px;
+  	margin-right: auto;
+  	margin-left: auto;
+  	background: url("Gambar/background 2.png");
+  	background-repeat: repeat;
+  	background-size: cover;
+}
+
+/* Untuk header */
+#header {
+	width: 100%;
+	height: 30px;
+	background-color: #E5E5E5;
+}
+
+#square_1 {
+	padding: 20px;
+	width: 55%;
+	height: 63%;
+	position: absolute;
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	left: 0;
+	top: 80px;
+	right: 0;
+	box-shadow:  0px 5px 6px 6px rgba(0, 0, 0, 0.25);
+	background-color: #DB292F;
+	border-radius: 20px;
+}
+
+@font-face{
+  font-family: Poppins;
+  src:url(E://Font/PoppinsBlack.otf);
+}
+
+/* Link di dalam square */
+.navbar-brand {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: Poppins;
+	font-style: normal;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 33px;
+	padding: 0.375rem 0.75rem;
+}
+
+.navbar-nav {
+	flex-direction: row;
+	padding-left: 0;
+	text-align: center;
+	list-style: none;
+}
+
+/* untuk pencarian */
+#square_2 {
+	width: 185px;
+	height: 25px;
+	border-radius: 8px;
+	background-color: #E15055;
+	font-family: Poppins;
+	border-style: hidden;
+}
+
+/* gambar */
+.slide-gb {
+	width: 100%;
+	height: 86%;
+	border-radius: 0px 0px 20px 20px;
+	position: absolute;
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	left: 0;
+	top: 80px;
+	right: 0;
+}
+
+.fontStyle {
+	font-family: Poppins;
+	color: #FFFFFF;
+	padding-left: 10%;
+}
+
+/* card menu */
+.card {
+	width: 55%;
+	height: 35%;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: #FFF;
+	box-shadow:  0px 5px 6px 6px rgba(0, 0, 0, 0.25);
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 700px;
+}
+
+#positionCard_1 {
+	top: 700px;
+}
+
+#positionCard_2 {
+	top: 1530px;
+}
+
+#positionCard_3 {
+	top: 1960px;
+}
+
+#positionCard_4 {
+	top: 3000px;
+}
+
+/* table di dalam card menu */
+.table1, th, td {
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 0px;
+	border-radius: 5px;
+	font-style: normal;
+	font-family: Poppins;
+}
+
+.table2 {
+	width: 55%;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 0px;
+	border-radius: 5px;
+	font-style: normal;
+	font-family: Poppins;
+}
+
+.btn-table {
+  background: #DB292F;
+  color:white;
+  width: auto;
+  height: 44px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Poppins;
+  text-decoration: none;
+  font-size: 11px;
+  font-style: normal;
+}
+
+.square_3 {
+	background-color: #E5E5E5;
+	border-radius: 12px;
+	font-family: Poppins;
+	color: #000000;
+	font-size: 20px;
+	height: auto;
+	width: 55%;
+	text-align: center;
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#positionSquare_1 {
+	top: 1080px;
+}
+
+#positionSquare_2 {
+	top: 1460px;
+}
+
+#positionSquare_3 {
+	top: 1900px;
+}
+
+#positionSquare_4 {
+	top: 2430px;
+}
+
+#positionSquare_5 {
+	top: 2950px;
+}
+
+.table2 {
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	right: 0;
+	left: 0;
+	top: 1150px;
+	border: 0;
+}
+
+.square_4 {
+	width: 207px;
+	height: 207px;
+	background-color: #FFFFFF;
+	border: 6px solid #DB292F;
+	border-radius: 20px;
+	text-align: center;
+	font-family: Poppins;
+}
+
+.card2 {
+	width: auto;
+	height: 35%;
+	padding: 20px;
+	border-radius: 20px;
+	background-color: transparent;
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 1120px;
+}
+
+.line {
+	width: 55%;
+	border-radius: 5px;
+	border-color: #DB292F;
+	border-style: solid;
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#line_1 {
+	top: 1430px;
+}
+
+#line_2 {
+	top: 2400px;
+}
+
+.fontStyle2 {
+	width: 55%;
+	height: auto;
+	background-color: transparent;
+	font-family: Poppins;
+	text-align: center;
+	color: #000000;
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+#font1 {
+	top: 1370px;
+}
+
+#font2 {
+	top: 2330px;
+}
+
+.square_5 {
+	width: 30px;
+	height: 80px;
+	font-family: Poppins;
+}
+
+.square_6 {
+	width: 55%;
+	height: auto;
+	padding-bottom: 10px;
+	background-color: #E5E5E5;
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 2480px;
+}
+
+.footer1 {
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	position: absolute;
+	width: 100%;
+	height: auto;
+	background-color: #BD2429;
+	top: 3370px;
+	font-family: Poppins;
+	color: #FFF;
+}
+
+.footer2 {
+	margin-left: auto;
+	margin-top: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	position: absolute;
+	padding: 20px;
+	width: 100%;
+	height: auto;
+	background-color: #DB292F;
+	top: 3520px;
+	font-family: Poppins;
+	color: #FFF;
+}
